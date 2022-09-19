@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Our Lovely Course</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Attach background video in mp4 format -->
+    <video autoplay loop muted id="bgvideo">
+      <source src="images/videobackground.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Creat navigation bar -->
+    <nav
+      role="navigation"
+      class="navbar navbar-custom navbar-fixed-top"
+      id="mynavBar"
+    >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Complete Web Development Course</a>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-target="#navbarCollapse"
+            data-toggle="collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#promise">Our Promise</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Create home section -->
+    <div class="jumbotron" id="home">
+      <div class="container">
+        <h1>Complete Web Development Course</h1>
+        <h2>Go from Zero-skills to Cash-Earning Web Developer</h2>
+        <p><a href="#" class="btn">Join us Now!</a></p>
+      </div>
+    </div>
+
+    <!-- Create about section using grid system -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/Quality.png" alt="about-icon" class="aboutimage" />
+            <h2>High Quality Lectures</h2>
+            <p>
+              All lectures have been very well prepared for the best learning
+              experience of future developers.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/Tools.png" alt="about-icon" class="aboutimage" />
+            <h2>+80H of Rich Content</h2>
+            <p>
+              Learn all major Web Technologies : <br />
+              HTML5,CSS3,Javascript,JQuery, Twitter
+              Bootstrap,PHP,mySQL,Wordpress,Ajax,<br />
+              XML,JSON,Mobile Apps, API's,Google Maps,Facebook and MORE!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/Help2.png" alt="about-icon class="aboutimage" />
+            <h2>Get Help Anytime!</h2>
+            <p>
+              Post your questions in the forum of the course where myself and
+              thousands of students are happy to help!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
