@@ -13,7 +13,7 @@ body {
   z-index: -100;
 }
 
-@media (max-width: 768px) {
+@media (max-device-width: 768px) {
   #bgvideo {
     display: none;
   }
